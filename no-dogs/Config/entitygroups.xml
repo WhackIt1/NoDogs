@@ -1,0 +1,15 @@
+<configs>
+	<remove xpath="//entitygroup[contains(@name, 'ZombieDog')]"/>
+	
+	<csv xpath="//entitygroup[contains(@name, 'Zombie') or contains(@name, 'HordeStage')]/text()" delim="\n" op="remove">animalZombieDog, .05</csv>
+	<csv xpath="//entitygroup[@name='ZombiesForestDowntown']/text()" delim="\n" op="remove">animalZombieDog, .1</csv>
+	<csv xpath="//entitygroup[@name='ZombiesForestDowntownNight']/text()" delim="\n" op="remove">animalZombieDog, .3</csv>
+	<csv xpath="//entitygroup[@name='ZombiesDowntown']/text()" delim="\n" op="remove">animalZombieDog, .4</csv>
+	<csv xpath="//entitygroup[@name='ZombiesWastelandDowntown']/text()" delim="\n" op="remove">animalZombieDog, .8</csv>
+	<csv xpath="//entitygroup[contains(@name, 'Zombie') or contains(@name, 'HordeStage')]/text()" delim="\n" op="remove">animalZombieDog</csv>
+	<csv xpath="//entitygroup[contains(@name, 'ZombiesWastelandNight2')]/text()" delim="\n" op="remove">animalZombieDog, .15</csv>
+	<csv xpath="//entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="remove">animalZombieDog, 9</csv>
+	<csv xpath="//entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="remove">animalZombieDog, 30</csv>
+	<csv xpath="//entitygroup[@name='ZombieAnimalsGroup']/text()" delim="\n" op="remove">animalZombieDog, .95</csv>
+
+</configs>
